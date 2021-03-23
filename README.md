@@ -23,15 +23,15 @@ This Project shows the list of meetings which are stored in the MySql Database. 
 
 - after first start you need to add some data
 
-INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (1, 'Русский дивизион', 1);
-INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (2, 'Matrix Team', 2);
-INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (3, 'Команда-А', 3);
+INSERT INTO "subdivision" (s_id, sub_name, subname_id) VALUES (1, 'Русский дивизион', 1);
+INSERT INTO "subdivision" (s_id, sub_name, subname_id) VALUES (2, 'Matrix Team', 2);
+INSERT INTO "subdivision" (s_id, sub_name, subname_id) VALUES (3, 'Команда-А', 3);
 
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (1, 30, 'Боширов Руслан Николаевич', 1);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (2, 25, 'Петров Александр Сергеевич', 1);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (3, 20, 'Сидоров Иван Никитич', 1);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (4, 40, 'Андерсон Томас', 2);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (5, 44, 'Смит Агент', 2);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (6, 25, 'Тринити', 2);
-INSERT INTO `employee` (n_id, age, name, subdiv_id) VALUES (7, 45, 'Морфеус', 2);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (1, 30, 'Боширов Руслан Николаевич', 1);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (2, 25, 'Петров Александр Сергеевич', 1);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (3, 20, 'Сидоров Иван Никитич', 1);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (4, 40, 'Андерсон Томас', 2);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (5, 44, 'Смит Агент', 2);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (6, 25, 'Тринити', 2);
+INSERT INTO "employee" (n_id, age, name, subdiv_id) VALUES (7, 45, 'Морфеус', 2);
 
