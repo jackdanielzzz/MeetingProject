@@ -14,6 +14,7 @@ public class Employee implements Serializable {
     private Integer n_id;
     private String name;
     private Integer age;
+    private boolean isPresent = false;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "subdiv_id", referencedColumnName = "subname_id")
@@ -28,6 +29,14 @@ public class Employee implements Serializable {
     }
 
     public Employee() {
+    }
+
+    public boolean isPresent() {
+        return isPresent;
+    }
+
+    public void setPresent(boolean present) {
+        isPresent = present;
     }
 
     public Integer getN_id() {
