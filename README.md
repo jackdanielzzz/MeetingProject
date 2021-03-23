@@ -18,8 +18,8 @@ This Project shows the list of meetings which are stored in the MySql Database. 
 
 ## How to execute
 - `mm_db` - Create new schema with user `root` and password `123`
-- `java -jar meeting-manager-1.0.jar` - execute project 
-- `http://localhost:8181` - Open URL in your favourite browser
+- `java -jar meeting-manager-1.0.jar` - Execute project 
+- `http://localhost:8181` - Open URL in your  browser
 
 - after first start you need to add some data
 
