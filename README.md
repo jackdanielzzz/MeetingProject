@@ -21,7 +21,8 @@ This Project shows the list of meetings which are stored in the MySql Database. 
 - `java -jar meeting-manager-1.0.jar` - execute project 
 - `http://localhost:8181` - Open URL in your favourite browser
 
-after first start you need to add some data
+- after first start you need to add some data
+
 INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (1, 'Русский дивизион', 1);
 INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (2, 'Matrix Team', 2);
 INSERT INTO `subdivision` (s_id, sub_name, subname_id) VALUES (3, 'Команда-А', 3);
